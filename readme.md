@@ -1,2 +1,2 @@
-#ListViewAndBaseAdapterExercise
-##¹ØÓÚListView¡¢À©Õ¹BaseAdapter¡¢×Ô¶¨ÒåDialog¡¢Turling»úÆ÷ÈËÍøÂçÁ¬½ÓÓëJson½á¹û½âÎö µÄÁ·Ï°
+# ListViewAndBaseAdapterExercise
+## å…³äºListViewã€æ‰©å±•BaseAdapterã€è‡ªå®šä¹‰Dialogã€Turlingæœºå™¨äººç½‘ç»œè¿æ¥ä¸Jsonç»“æœè§£æ çš„ç»ƒä¹ 
