@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ECE9D8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B8CAEE"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="详情"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/dialog_img_head"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:src="@drawable/ic_boy" />
+
+        <TextView
+            android:id="@+id/dialog_txt_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/dialog_img_head"
+            android:layout_toRightOf="@+id/dialog_img_head"
+            android:background="@drawable/right"
+            android:scrollbars="vertical"
+            android:text="你好，我给你讲个笑话吧……"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/dialog_txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/dialog_img_head"
+            android:paddingLeft="10dp"
+            android:text="姓名：潘陈建"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dialog_txt_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/dialog_txt_name"
+            android:paddingLeft="10dp"
+            android:text="性别：男"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/dialog_txt_right"
+            android:layout_alignLeft="@+id/dialog_txt_right"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" 
+            android:gravity="center">
+
+            <ProgressBar
+                android:id="@+id/dialog_progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B8CAEE"
+        android:gravity="center_horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:minHeight="40dp"
+            android:minWidth="80dp"
+            android:text="确认" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:minHeight="40dp"
+            android:minWidth="80dp"
+            android:text="退出" />
+    </LinearLayout>
+
+</LinearLayout>
